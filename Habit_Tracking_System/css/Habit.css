@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+header, footer {
+    background-color: #805ad5; /* Dark purple header background */
+    color: white; /* White text */
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    background-color: #fff; /* White main content background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px; /* Limit content width */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h1 {
+    color: white; /* Purple heading color */
+}
+
+form {
+    text-align: left; /* Align form elements to the left */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #805ad5; /* Purple button background */
+    color: white; /* White button text */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6842a2; /* Darker purple on hover */
+}
+
+a {
+    color: #6842a2; /* Purple link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+/* For messages */
+.message-box {
+    background-color: #f8d7da; /* Red background color */
+    color: #721c24; /* Dark red text color */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb; /* Red border */
+    border-radius: 4px;
+}

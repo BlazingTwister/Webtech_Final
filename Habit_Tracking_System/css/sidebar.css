@@ -1,0 +1,28 @@
+/* Sidebar styles */
+.sidebar {
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    background-color: #805ad5; /* Dark purple background color */
+    color: #fff; /* White text color */
+}
+
+.sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.sidebar ul {
+    list-style: none; /* Remove default list-style (bullet points) */
+    
+}
+
+.sidebar li:hover {
+    background-color: #6842a2; /* Darker purple background color on hover */
+}
+
+.sidebar a {
+    background-color: white; 
+}
+
